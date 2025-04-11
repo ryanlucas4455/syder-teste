@@ -17,12 +17,15 @@
   }
   header div a {
         color: rgb(255, 255, 255); /* a cor do texto */
-        font-size: 40px; /*tamanho da fonte */
+        font-size: 20px; /*tamanho da fonte */
         line-height: 30px; /* espaçamento da linha do texto */
         margin: 0 32px; /* espaçamento entre os textos */
         text-decoration: none; /* retirar decoração do texto */
         font-family: 'Roboto', sans-serif;/* a fonte escolhida pro menu*/ 
-  }
+        font-optical-sizing: auto;
+        font-style: normal;
+        transition: 700ms;
+  }    
 header div a:hover { /* Quando o mouse passa por cima do link dentro de uma div no header */
   color: green; /* A cor do texto muda para verde */
   transition: color 700ms; /* A transição da cor acontece em 700 milissegundos */
