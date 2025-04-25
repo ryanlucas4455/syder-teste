@@ -6,20 +6,21 @@
 }
   body{
    background-color: #252525;
+
   }
   header{
-      padding: 16px;
+      padding: 32px;
       border-bottom: 3px solid #cd0000;
       background-color: rgba(0, 0,0,0.1);
   }
   hearder div {
-       text-align: center; /* Alinhamento no meio do header */
+      text-align: center; /* Alinhamento no meio do header */
   }
   header div a {
         color: rgb(255, 255, 255); /* a cor do texto */
         font-size: 20px; /*tamanho da fonte */
         line-height: 30px; /* espaçamento da linha do texto */
-        margin: 0 32px; /* espaçamento entre os textos */
+        margin: 0 16px; /* espaçamento entre os textos */
         text-decoration: none; /* retirar decoração do texto */
         font-family: 'Roboto', sans-serif;/* a fonte escolhida pro menu*/ 
         font-optical-sizing: auto;
@@ -29,4 +30,33 @@
 header div a:hover { /* Quando o mouse passa por cima do link dentro de uma div no header */
   color: green; /* A cor do texto muda para verde */
   transition: color 700ms; /* A transição da cor acontece em 700 milissegundos */
+}
+
+#box{
+   text-align: center;
+   padding: 32px
+}
+
+#box img {
+   border-radius: 50%;
+   border: 5px solid #4b50ef;
+   margin-bottom: 32px;
+}
+#box h1 {
+  font-size: 42px;
+  line-height: 52px;
+  font-weight: bold;
+}
+#box h2 {
+  font-size: 24px;
+  line-height: 34px;
+  font-weight: normal;
+  margin-top: 8px;
+}
+
+#box p {
+  max-width: 500px;
+  margin: 32px auto;
+  font-size: 24px;
+  line-height: 34px;
 }
