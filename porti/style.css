@@ -10,7 +10,7 @@
   }
   header{
       padding: 32px;
-      border-bottom: 3px solid #cd0000;
+      border-bottom: 3px solid #328cfa;
       background-color: rgba(0, 0,0,0.1);
   }
   hearder div {
@@ -59,4 +59,12 @@ header div a:hover { /* Quando o mouse passa por cima do link dentro de uma div 
   margin: 32px auto;
   font-size: 24px;
   line-height: 34px;
+}
+
+header div {
+  text-align: center;
+} 
+
+.links a {
+  color:
 }
