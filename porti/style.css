@@ -6,16 +6,15 @@
 }
   body{
    background-color: #252525;
-
+   font-family: 'Roboto', sans-serif;
   }
   header{
       padding: 32px;
       border-bottom: 3px solid #328cfa;
       background-color: rgba(0, 0,0,0.1);
+      text-align: center;
   }
-  hearder div {
-      text-align: center; /* Alinhamento no meio do header */
-  }
+  
   header div a {
         color: rgb(255, 255, 255); /* a cor do texto */
         font-size: 20px; /*tamanho da fonte */
@@ -47,11 +46,13 @@ header div a:hover { /* Quando o mouse passa por cima do link dentro de uma div 
   line-height: 52px;
   font-weight: bold;
 }
+
 #box h2 {
   font-size: 24px;
   line-height: 34px;
   font-weight: normal;
   margin-top: 8px;
+  opacity: 0.8;
 }
 
 #box p {
@@ -66,5 +67,26 @@ header div {
 } 
 
 .links a {
-  color:
+  color: #f6f6f6;
+  font-size: 20px;
+  line-height: 30px;
+  margin: 0 16px;
+  text-decoration: none;
+  transition: color 700ms, font-size 300ms;
+}
+
+.links a:hover {
+  color: #02cd1a;
+  font-size: 23px;
+}
+
+#linksFooter {
+  padding-top: 32px;
+  text-align: center;
+}
+
+#linksFooter a {
+  padding-top: 32px;
+  padding-bottom: 8px;
+  border-bottom: 3px solid #328cfa;
 }
